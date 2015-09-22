@@ -39,8 +39,9 @@
     					<keepBranch>false</keepBranch>
     					<noTag>false</noTag>
 					<allowUntracked>true</allowUntracked>
+					<allowSnapshots>true</allowSnapshots>
     					<flowInitContext>
-      						<masterBranchName>frankenstein</masterBranchName>      
+      						<masterBranchName>frankenstein</masterBranchName>
     					</flowInitContext>
    				</configuration>
 			</plugin>	
