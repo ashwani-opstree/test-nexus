@@ -3,7 +3,7 @@
 
   <groupId>EmployeeAutomation</groupId>
   <artifactId>EmployeeAutomation</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <packaging>jar</packaging>
 
   <name>EmployeeAutomation</name>
@@ -12,9 +12,37 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <scm>
+        <connection>scm:git:git@github.com:ashwani-opstree/test-nexus.git</connection>
+        <developerConnection>scm:git:git@github.com:ashwani-opstree/test-nexus.git</developerConnection>
+  </scm>
+  <distributionManagement>
+                <snapshotRepository>
+                        <id>BigParser-Release</id>
+                        <url>http://192.168.33.142:8081/content/repositories/BigParser-Release</url>
+                </snapshotRepository>
+                <repository>
+                        <id>releases</id>
+                        <url>http://192.168.33.142:8081/content/repositories/releases</url>
+                </repository>
+  </distributionManagement>
+
 
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>com.atlassian.maven.plugins</groupId>
+  				<artifactId>maven-jgitflow-plugin</artifactId>
+  				<version>1.0-alpha27</version>
+				<configuration>
+    					<pushReleases>true</pushReleases>
+    					<keepBranch>false</keepBranch>
+    					<noTag>false</noTag>
+    					<flowInitContext>
+      						<masterBranchName>frankenstein</masterBranchName>      
+    					</flowInitContext>
+   				</configuration>
+			</plugin>	
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -112,14 +140,4 @@
 			<version>2.10</version> 
 		</dependency>
 	</dependencies>
-	<distributionManagement>
-		<snapshotRepository>
-    			<id>BigParser-Release</id>
-    			<url>http://192.168.33.142:8081/content/repositories/BigParser-Release</url>
-  		</snapshotRepository> 
-  		<repository>
-    			<id>releases</id>
-    			<url>http://192.168.33.142:8081/content/repositories/releases</url>
-  		</repository>
-	</distributionManagement>
 </project>
