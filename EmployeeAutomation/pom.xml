@@ -36,7 +36,6 @@
     					<flowInitContext>
       						<masterBranchName>master</masterBranchName>
 						<developBranchName>development</developBranchName>
-    						<releaseBranchPrefix>release_</releaseBranchPrefix>
 						<versionTagPrefix>release_</versionTagPrefix>
 					</flowInitContext>
    				</configuration>
