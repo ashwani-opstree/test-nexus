@@ -16,6 +16,12 @@
         <connection>scm:git:git@github.com:ashwani-opstree/test-nexus.git</connection>
         <developerConnection>scm:git:git@github.com:ashwani-opstree/test-nexus.git</developerConnection>
   </scm>
+  <distributionManagement>
+  <repository>
+    <id>test</id>
+    <url>http://52.89.138.122/content/repositories/test</url>
+  </repository>
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
