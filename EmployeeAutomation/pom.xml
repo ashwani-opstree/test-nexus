@@ -32,9 +32,11 @@
     					<pushReleases>true</pushReleases>
     					<keepBranch>false</keepBranch>
 					<noTag>false</noTag>
+					<tagMessage>BigParser release</tagMessage>
 					<allowUntracked>true</allowUntracked>
 					<allowSnapshots>true</allowSnapshots>	
     					<flowInitContext>
+						<masterBranchName>frankenstein</masterBranchName>
 						<versionTagPrefix>release_</versionTagPrefix>
 					</flowInitContext>
    				</configuration>
