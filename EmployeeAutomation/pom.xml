@@ -35,8 +35,10 @@
 					<allowUntracked>true</allowUntracked>
 					<allowSnapshots>true</allowSnapshots>
     					<flowInitContext>
-      						<masterBranchName>frankenstein</masterBranchName>
-    					</flowInitContext>
+      						<masterBranchName>master</masterBranchName>
+						<developBranchName>development</developBranchName>
+    						<releaseBranchPrefix>release_</releaseBranchPrefix>
+					</flowInitContext>
    				</configuration>
 			</plugin>	
 			<plugin>
