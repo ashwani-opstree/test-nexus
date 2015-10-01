@@ -37,7 +37,7 @@
 				<configuration>
     					<pushReleases>false</pushReleases>
     					<keepBranch>false</keepBranch>
-    					<noTag>false</noTag>
+    					<noTag>true</noTag>
 					<allowUntracked>true</allowUntracked>
 					<allowSnapshots>true</allowSnapshots>
     					<flowInitContext>
