@@ -31,7 +31,6 @@
 				<configuration>
     					<pushReleases>true</pushReleases>
     					<keepBranch>false</keepBranch>
-					<noReleaseMerge>true</noReleaseMerge>
 					<noTag>false</noTag>
 					<allowUntracked>true</allowUntracked>
 					<allowSnapshots>true</allowSnapshots>	
