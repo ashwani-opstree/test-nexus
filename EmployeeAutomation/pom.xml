@@ -34,8 +34,6 @@
 					<allowUntracked>true</allowUntracked>
 					<allowSnapshots>true</allowSnapshots>
     					<flowInitContext>
-      						<masterBranchName>master</masterBranchName>
-						<developBranchName>development</developBranchName>
 						<versionTagPrefix>release_</versionTagPrefix>
 					</flowInitContext>
    				</configuration>
