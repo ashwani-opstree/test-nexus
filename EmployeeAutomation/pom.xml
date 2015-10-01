@@ -29,10 +29,11 @@
   				<artifactId>maven-jgitflow-plugin</artifactId>
   				<version>1.0-alpha27</version>
 				<configuration>
-    					<pushReleases>true</pushReleases>
+    					<pushReleases>false</pushReleases>
     					<keepBranch>false</keepBranch>
+					<noTag>true<noTag/>
 					<allowUntracked>true</allowUntracked>
-					<allowSnapshots>true</allowSnapshots>
+					<allowSnapshots>true</allowSnapshots>	
     					<flowInitContext>
 						<versionTagPrefix>release_</versionTagPrefix>
 					</flowInitContext>
