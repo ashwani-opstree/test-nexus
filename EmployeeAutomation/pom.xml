@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>EmployeeAutomation-test</groupId>
-  <artifactId>EmployeeAutomation-test</artifactId>
+  <groupId>EmployeeAutomation</groupId>
+  <artifactId>EmployeeAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>EmployeeAutomation-test</name>
+  <name>EmployeeAutomation</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -36,7 +36,7 @@
 					<allowUntracked>true</allowUntracked>
 					<allowSnapshots>true</allowSnapshots>	
     					<flowInitContext>
-						<masterBranchName>frankenstein</masterBranchName>
+						<masterBranchName>test</masterBranchName>
 						<versionTagPrefix>release_</versionTagPrefix>
 					</flowInitContext>
    				</configuration>
